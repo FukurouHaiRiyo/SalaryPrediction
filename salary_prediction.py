@@ -10,7 +10,7 @@ import seaborn as sns
 def line(x, a, b):
     return x * a + b
 
-df = pd.read_csv('Cursuri Machine Learning/Curs2/PrezicereSalariu/Salary.csv', delimiter=',')
+df = pd.read_csv('path/to/Salary.csv', delimiter=',')
 df.info()
 
 X = df['YearsExperience'].values
